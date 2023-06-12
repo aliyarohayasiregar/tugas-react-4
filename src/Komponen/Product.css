@@ -1,0 +1,13 @@
+.image{
+    width: 170px;
+    height: 130px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: gray;
+    align-items: center;
+}

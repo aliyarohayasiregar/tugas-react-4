@@ -1,11 +1,11 @@
-import React from 'react'
+import "./Tombol.css";
 
-const Tombol = ({anak, ...props}) => {
-    return (
-        <button className="button" {...props}>
-          {anak}
-        </button>
-      );
+function Tombol({ children, ...props }) {
+  return (
+    <button className="button" {...props}>
+      {children}
+    </button>
+  );
 }
 
-export default Tombol
+export default Tombol;
